@@ -1,4 +1,5 @@
 import { Car } from './models/Car.js'
+import { Job } from './models/Jobs.js'
 import { EventEmitter } from './utils/EventEmitter.js'
 import { createObservableProxy } from './utils/ObservableProxy.js'
 
@@ -63,6 +64,34 @@ class ObservableAppState extends EventEmitter {
       description: 'RIP in the jalopy jungle',
       color: '#8c9197'
     }),
+  ]
+
+  jobs = [
+    new Job({
+      title: 'Food Tester',
+      jobImag: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      pay: 40.000,
+      hours: '8hr',
+      shift: 'Monday-Friday',
+      dentalPlans: true
+    }),
+    new Job({
+      title: 'Dog Sitter',
+      jobImag: '',
+      pay: 20.000,
+      hours: '5hr',
+      shift: 'Monday-Thursday',
+      dentalPlans: true
+    }), new Job({
+      title: 'New Products Tester!',
+      jobImag: '',
+      pay: 90.000,
+      hours: '12hr',
+      shift: 'Monday-Wednesday',
+      startDate: 'date',
+      dentalPlans: false
+    }),
+
   ]
 }
 

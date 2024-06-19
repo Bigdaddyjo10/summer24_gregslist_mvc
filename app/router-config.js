@@ -17,5 +17,10 @@ export const router = new Router([
     path: '#/cars',  //http://localhost:8080/#/cars
     controllers: [CarsController],
     view: 'app/views/CarsView.html'
+  },
+  {
+    path: '#/jobs',  //http://localhost:8080/#/cars
+    controllers: [CarsController],
+    view: 'app/views/JobsView.html'
   }
 ])
