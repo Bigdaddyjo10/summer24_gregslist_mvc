@@ -69,7 +69,7 @@ class ObservableAppState extends EventEmitter {
   jobs = [
     new Job({
       title: 'Food Tester',
-      jobImag: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      img: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       pay: 40.000,
       hours: '8hr',
       shift: 'Monday-Friday',
@@ -77,14 +77,14 @@ class ObservableAppState extends EventEmitter {
     }),
     new Job({
       title: 'Dog Sitter',
-      jobImag: '',
+      img: 'https://images.unsplash.com/photo-1444212477490-ca407925329e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGRvZyUyMHNpdHRlcnxlbnwwfHwwfHx8MA%3D%3D',
       pay: 20.000,
       hours: '5hr',
       shift: 'Monday-Thursday',
       dentalPlans: true
     }), new Job({
       title: 'New Products Tester!',
-      jobImag: '',
+      img: 'https://images.unsplash.com/photo-1496950866446-3253e1470e8e?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       pay: 90.000,
       hours: '12hr',
       shift: 'Monday-Wednesday',
